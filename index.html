@@ -3,26 +3,34 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Jimmy's web site</title>
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>Jimmy's typer blog test</title>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-  <h1> Title </h1>
-  <p> my text </p>
+  <h1> Blog typer </h1>
 
-  <input> enter your details here </input>
+  <div class="container">
+    <h2>First line</h2>
+    <h1 id="example"></h1>
+    
+  </div>
 
-  <p>I am writing text on this line <br> <i>and down here too</i> </p>
 
-  <button onclick="Click me"> I'm a button </button>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/typer.min.js"></script>
+
   <script>
-    Var a = getElementById('button')
+    $("#example").typer({
+      strings: [
+        "A great free jQuery plugin",
+        "Animates typing strings",
+        "Hosted In jQueryScript"
+      ]
+    });
   </script>
 
-
 </body>
-
 </html>
