@@ -1,0 +1,20 @@
+body{
+  background-image: url(2.jpg);
+  background-size: cover;
+  background-position: center; 
+}
+.container{
+  width: 700px;
+  mardin: 150px auto;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.typed{
+  color: tomato;
+}
+.container h2{
+  font-size: 80px;
+  color: #fff;
+  margin: left;
+}
